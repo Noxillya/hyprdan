@@ -5,3 +5,6 @@ hypr
 kitty
 rofi
 waybar
+
+# Keybinds :
+You can find them in ```/hypr/hyprland/keybinds.conf```
