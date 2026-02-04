@@ -16,6 +16,7 @@
         "clock"
     ],
     "modules-right": [
+        "power-profiles-daemon",
         "pulseaudio",
         "network",
         "battery",
