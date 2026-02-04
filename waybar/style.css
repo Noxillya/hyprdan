@@ -3,6 +3,12 @@
     font-size: 13px;
 }
 
+#waybar > * {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
 window#waybar {
     background-color: rgba(25, 25, 25, 0.5);
     color: #ffffff;

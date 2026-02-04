@@ -67,7 +67,7 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "{essid} ",
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
@@ -116,5 +116,22 @@
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
 		}
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+
+        "tooltip-format": "Battery: {capacity}%\nTime: {time}",
+        "tooltip-format-charging": "Charging\nBattery: {capacity}%\nTime remaining: {time}",
+        "tooltip-format-plugged": "Plugged in\nBattery: {capacity}%",
+
+        "format-icons": ["", "", "", "", ""]
     }
 }

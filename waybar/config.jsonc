@@ -18,6 +18,7 @@
     "modules-right": [
         "pulseaudio",
         "network",
+        "battery",
         "hyprland/language",
         "tray",
         "custom/power"
