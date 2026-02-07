@@ -45,10 +45,17 @@
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
         // }
     },
-    "clock": {
-        // "timezone": "Europe/Paris",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+    "clock#time": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%H:%M:%S}"
+    },
+    "clock#date": {
+        "format": "{:%d-%m-%Y}",
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>"
+    },
+    "custom/separator": {
+        "format": "|",
+        "tooltip": false
     },
     "cpu": {
         "format": "{usage}% ",

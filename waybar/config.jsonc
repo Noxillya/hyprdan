@@ -13,7 +13,9 @@
     ],
     "modules-center": [
         "hyprland/workspaces",
-        "clock"
+        "clock#time",
+        "clock#date"
+        //"custom/separator",
     ],
     "modules-right": [
         "power-profiles-daemon",
